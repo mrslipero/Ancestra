@@ -1,0 +1,47 @@
+
+body {
+  /* background-image: url("pastel.jpg"); */ /* Imagen de fondo (pausada) */
+  /* background-size: cover; */      /* Ajusta tamaño de la imagen */
+  /* background-repeat: no-repeat; */ /* Evita que se repita la imagen */
+  /* background-position: center; */  /* Centra la imagen */
+  /* background-attachment: fixed; */ /* Fija la imagen al hacer scroll */
+  background-color: #ffe6f0;   /* Fondo rosado pastel */
+  text-align: center;          /* Centra texto */
+  font-family: Arial, sans-serif; /* Fuente base */
+}
+
+
+/* Caja del título */
+.box-titulo {
+  background-color: #180374; /* color del fondo */
+  border: 3px solid #a37e06; /* borde dorado */
+  /* border-radius: 0%; */ /* opcional: esquinas redondeadas */
+  width: 100%; /* casi todo el ancho */
+  margin: 5px auto; /* espacio o separacion externa empuja cualquier cosa de la pagina si lo toca */
+  padding: 5px; /* espacio interno */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* sombra */
+  margin-left: -8.5px; /* ajuste lateral */
+  margin-top: -9px; /* ajuste vertical */
+  text-align: center; /* centra el texto dentro */
+}
+
+/* Texto del título */
+.titulo {
+  font-size: 40px; /* tamaño del texto puede afectar mi box titulo */
+  font-family: 'Profusely Yours', cursive;
+  color: #ffffff; /* color blanco */
+  letter-spacing: 2px; /* separa letras */
+  transform: scaleX(1.1); /* estiro el texto */
+  display: inline-block; /* dependencia del scale */
+}
+
+
+ .logo {
+        width: 200px;
+        height: auto;
+        margin-top: -152px; /* sube la imagen */
+    }
+
+ 
+
+    

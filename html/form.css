@@ -1,0 +1,58 @@
+
+/* Caja que contiene el formulario */
+form {
+font-family: 'Profusely Yours', cursive;
+  background-color: #ffffff; /* color blanco de fondo */
+  border: 2px solid #a37e06; /* borde dorado suave */
+  border-radius: 10px; /* esquinas redondeadas */
+  width: 350px; /* ancho del formulario */
+  margin: 3px auto; /* lo centra en la pantalla */
+  padding: 20px; /* espacio interno */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+}
+
+/* Estilo para los títulos pequeños (h3) */
+h3{
+  color: #180374; /* azul oscuro */
+  font-size: 19px; /*tamaño fuente*/
+  margin-bottom: 5px; /* espacio debajo del texto */
+}
+
+/* Estilo general de los campos (correo, número, fecha, texto) */
+input, textarea {
+  width: 90%; /* ancho del campo */
+  padding: 8px; /* espacio dentro del campo */
+  margin: 8px 0; /* espacio arriba y abajo entre campos */
+  border: 1px solid #ccc; /* borde gris claro */
+  border-radius: 5px; /* esquinas redondeadas */
+  font-size: 14px; /* tamaño de letra */
+}
+
+/* Efecto cuando haces clic dentro del campo */
+input:focus, textarea:focus {
+  border-color: #a37e06; /* cambia color al dorado */
+  outline: none; /* quita el borde azul por defecto */
+}
+
+/* Botón de enviar */
+button {
+  background-color: #a37e06; /* dorado */
+  color: white; /* texto blanco */
+  border: none; /* sin borde */
+  border-radius: 5px; /* esquinas suaves */
+  padding: 10px 20px; /* espacio dentro del botón */
+  cursor: pointer; /* cambia el cursor al pasar por encima */
+  font-size: 15px;
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+  background-color: #180374; /* cambia a azul */
+}
+
+.contactanos {
+margin-top: -475px;
+font-family: 'Profusely Yours', cursive;
+font-size: 25px;
+}
+
