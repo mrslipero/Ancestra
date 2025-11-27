@@ -10,32 +10,34 @@
 </head>
 
 <body>
-
-  <div class="box-titulo">
-  <h1 class="titulo">Ancestra Bakery 🍰</h1>
-</div>
-
-  <div class="box-logo">
+    <!-- Título -->
+    <div class="box-titulo">
+        <h1 class="titulo">Ancestra Bakery 🍰</h1>
+    </div>
+    
+    <div class="box-logo"></div> 
+     
     <img src="logoancestra.png" class="logo" alt="Logo Ancestra Bakery">
 
+    <!--Formulario-->
     <div class="box-correo">
+      <h3 id="orden">🎉 Tu antojo empieza aquí ✉️🎂</h3>
+            <form>
+                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
 
-    <form>
-    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
-    <input type="numero" id="numero" name="numero" placeholder="Ingresa tu numero" required>
-    <h3>Selecciona fecha y hora de entrega</h3>
-    <input type="datetime-local" id="entrega" name="entrega" required>
-    <h3>Descripción del pedido 📝</h3>
-    <textarea id="descripcion" name="descripcion" rows="4" placeholder="Escribe los detalles de tu pedido..." required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
-</div>
-<h3 class="contactanos"> 🎉 Tu antojo empieza aquí ✉️🎂 </h3>
-<button class="btn">
-  <span class="arrow">←</span> Volver
-</button>
+                <input type="text" id="numero" name="numero" placeholder="Ingresa tu número" required>
 
-<body>
+                <h3>Selecciona fecha y hora de entrega</h3>
+                <input type="datetime-local" id="entrega" name="entrega" required>
+
+                <h3>Descripción del pedido 📝</h3>
+                <textarea id="descripcion" name="descripcion" rows="4" placeholder="Escribe los detalles de tu pedido..." required></textarea>
+
+                <button class="Enviar" type="submit">Enviar</button>
+            </form>
+</body>
 </html>
+
+
 
 
