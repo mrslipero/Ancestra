@@ -3,14 +3,18 @@
     align-items:center;
     gap:10px;
 
-    background:#e4e6eb;
-    padding:10px;
+    background:#e4e6eb; 
+    padding:1%;
     border-radius:12px;
-
-    width:600px; /* puedes ajustarlo */
+    width:550px; /* tamaño de la barra recordar */
 }
 
-/* Imagen perfil */
+.post-box{
+    position:relative;
+    left:23%
+}
+
+
 .post-avatar{
     width:40px;
     height:40px;
@@ -18,7 +22,7 @@
     object-fit:cover;
 }
 
-/* Input */
+
 .post-input{
     flex:1;
     border:none;
@@ -31,7 +35,7 @@
     font-size:14px;
 }
 
-/* Iconos */
+
 .post-icons{
     display:flex;
     gap:10px;

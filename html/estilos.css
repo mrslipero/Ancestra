@@ -5,32 +5,31 @@ body {
   padding: 0;
 }
 
-
+/* HEADER */
 .box-titulo {
   background-color: #ffffff;
   border-bottom: 1px solid #ddd;
   display: flex;
   align-items: center;
-  padding: 8px 16px;
-  gap: 10px;
-  position: relative;
+  padding: 12px 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-
+  position: relative; /* necesario para centrar el centro */
 }
 
+/* IZQUIERDA */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-
+/* Logo */
 .logo {
   width: 40px;
   height: 40px;
 }
 
-
-.center {
-  display: flex;
-  justify-content: center;
-}
-
+/* Buscador */
 .lupa {
   background-color: #f0f2f5;
   border: none;
@@ -40,72 +39,41 @@ body {
   outline: none;
 }
 
-.boton {
+/* CENTRO (centrado real) */
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* BOTONES */
+.boton,
+.boton1,
+.boton2,
+.boton3,
+.boton4 {
   background-color: #ffffff;
-  color: white;
   border: none;
-  border-radius: 6px;
-  padding: 8px 14px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  position: relative;
-  left: 290px;
-  
-}
-.boton1{
-  background-color: #ffffff;
-  color: white;
-  border: none;
-  border-radius: 6px;
   padding: 8px 14px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-  left: 310px;
-}
-.boton2{
-  background-color: #ffffff;
-  color: white;
-  border: none;
   border-radius: 6px;
-  padding: 8px 14px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-  left: 340px;
 }
-.boton3{
-  background-color: #ffffff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 8px 14px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-  left: 370px;
+
+/* Hover estilo Facebook */
+.boton:hover,
+.boton1:hover,
+.boton2:hover,
+.boton3:hover,
+.boton4:hover {
+  background-color: #f2f2f2;
 }
-.boton4{
-  background-color: #ffffff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 8px 14px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-  left: 385px;
-}
+
+/* Tamaños iconos */
 .img-home {
   width: 70px;
   height: 40px;
@@ -120,10 +88,12 @@ body {
   width: 35px;
   height: 28px;
 }
+
 .grupo {
   width: 60px;
   height: 40px;
 }
+
 .juego {
   width: 65px;
   height: 45px;
