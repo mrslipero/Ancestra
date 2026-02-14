@@ -1,0 +1,33 @@
+
+.contenedor{
+    display:flex;
+}
+
+
+.barra{
+    width:250px;
+    height:100vh;
+    background:#ffffff;
+    padding:10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+/* Items */
+.menu-item{
+    padding:10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.menu-item:hover{
+    background:#f2f2f2;
+}
+
+/* Contenido principal */
+.main{
+    flex:1;
+    padding:20px;
+    background:#ffffff;
+}
+
+
